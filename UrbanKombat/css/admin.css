@@ -1,0 +1,36 @@
+.tablaAdmin {
+    margin: 1em auto;
+    border-collapse:collapse;
+    font-family: monospace;
+    
+    empty-cells: hide;
+}
+.tablaAdmin td, .tablaAdmin th{
+    border: 2px solid rgb(199, 248, 199);
+    padding: 0.5em;
+}
+
+.tablaAdmin th {
+    background-color:brown;
+}
+
+.volver {
+    text-decoration: none;
+    color:lightskyblue;
+}
+.tablaAdmin2{
+    margin: auto;
+}
+form{
+    background-color: #03082A;
+}
+input[type=submit]{
+    text-align: center;
+    background-color: #CD2CBE;
+    color:white;
+    font-size: 1em;
+    padding:0.3em;
+    border: 2px solid white;
+    border-radius: 0.4em;  
+}
+

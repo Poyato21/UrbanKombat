@@ -1,0 +1,75 @@
+.botones {
+    width: fit-content;
+    margin: auto;
+    text-align: justify;
+    display: inline-block;
+    background-color: transparent;
+    padding: 0px;
+}
+.spotifySong {
+    width: 100%;
+    height: 80px; 
+    border-radius:12px;
+}
+#tablaForo{
+    margin: 3em auto;
+    border-collapse:collapse;
+    color: rgb(180, 255, 161);
+    font-family:Courier, monospace;
+    font-weight: bold;
+    empty-cells: hide;
+    background-color:rgb(146, 0, 176);
+}
+
+#tablaForo td, #tablaForo tr, #tablaForo th {
+    border: 2px solid rgb(0, 153, 0);
+    
+    padding: 0.5em;
+}
+
+#tablaForo th{
+    background-color:violet;
+    color:#03082a;
+}
+
+.linksForo a {
+    text-decoration: none;
+    color: rgb(249 255 70);  
+}
+
+th#borrar {
+    border-color: #03082a rgb(0, 153, 0) rgb(0, 153, 0) #03082a ;
+    background-color: #03082a;
+}
+
+table#tema{
+    margin: 1em auto;
+    border-collapse:collapse;
+    font-family:Courier, monospace;
+    empty-cells: hide;
+}
+
+#tema td, #tema tr, #tema th{
+    border: 2px solid rgb(199, 248, 199);
+    padding: 0.5em;
+}
+
+#creador{
+    font-weight: bold;
+    background-color:blueviolet;
+}
+
+.msg{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(205, 205, 205);
+    color: black;
+    padding: 0em;
+}
+
+.resp {
+    background-color:rgb(159, 208, 165);
+    color: black;
+    padding: 0.5em;
+}
+
+   

@@ -1,0 +1,149 @@
+/*  diseño de plantilla y requires en plantilla (header y pie) + 
+    diseño formularios
+*/
+#logo {
+    width: 10em;
+    display:block;
+    margin: auto;
+}
+
+#logoPerfil {
+    width: 2.5em;
+}
+
+body {
+    display:flex;
+    flex-flow: column nowrap;
+    background-color: #03082A;
+    color:white;
+    font-family:Helvetica, sans-serif;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 40px 40px 0px 40px;
+    text-align: center; 
+    align-items: center; 
+}
+
+/* header */
+header {
+    position: static;
+    grid-area:header;
+}
+
+div#topHeader{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left; /* para que salga el usuario a la izquierda*/
+}
+
+div#topHeader .row {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #03082A;
+    justify-content: flex-start;
+    align-content: center;
+    font-size: 12px; 
+}
+
+div#topHeader a {
+    color:white;
+}
+
+
+
+/*menu de navegación*/
+#menu{
+    background-color:#d426a1;
+    margin: auto 1em;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 1em;
+}
+
+div#menu div  { 
+    padding: 0.8rem 0em;
+}
+
+div#menu div a {
+    font-size: small; 
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+div#menu div a:hover {
+    background-color: #03082A;
+}
+
+/*formularios*/
+form {
+    background-color: white;
+    width: max-content;
+    color:#03082A;
+    padding: 2em 1.5em;
+    border:2px #0b6b91;
+    border-radius: 1em;
+    margin:1em auto;
+    text-align:justify;
+}
+
+
+input, textarea {
+    box-sizing: border-box;
+    border: 2px solid #03082A;
+    border-radius: 4px;
+    margin: 0.5em;
+    
+}
+
+input[type=submit], button[type=submit]{
+    text-align: center;
+    background-color: #CD2CBE;
+    color:white;
+    font-size: 1em;
+    padding:0.3em;
+    border: 2px solid white;
+    border-radius: 0.4em;  
+}
+
+h1 {
+    text-align:center;
+    font-size:larger;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+/* class="noRegMsg" mesajes de error*/
+.noRegMsg{
+    background-color: rgb(172, 0, 0);
+    padding: 3em;
+}
+.noRegMsg a{
+    color:aquamarine;
+}
+
+.regMsg {
+    background-color:greenyellow;
+    padding: 3em;
+    color:black;
+    line-height: 2em;
+}
+
+
+ul.errores{
+    list-style:none;
+}
+
+/* mensajes que salen tras procesar algo*/
+.saludo {
+    margin: 5em;
+    background-color: #9018aa;
+    padding: 2em;
+    border: #2e91f7 dashed 1em;
+}
+

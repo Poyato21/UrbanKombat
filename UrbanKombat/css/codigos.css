@@ -1,0 +1,24 @@
+.codes {
+    display: flex;
+    width: 12em;
+    height: 7em;
+    border: 0.1em solid white;
+    padding: 0.3em;
+    margin: 2em;
+    border-radius: 1em 0em 1em 0em;
+    font-family:fantasy;
+}
+
+#spoti{
+    background-color:#1fd060;
+}
+
+#apple{
+    background-color: rgb(247 247 247);
+    color: rgb(142 90 241);
+}
+
+#yt {
+    background-color: rgb(247 0 0);
+}
+

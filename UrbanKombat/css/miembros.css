@@ -1,0 +1,25 @@
+.mCard {
+    height: 22em;
+    width: 28em;
+    margin: auto;
+    margin: 1em;
+    padding: 1.5em;
+    border: 10px;
+    background-color: rgb(118, 59, 148);
+    color:rgb(255, 242, 0);
+    border-radius: 2em;
+    display: inline-grid;
+}
+.mCard img {
+    border-radius:100%;
+}
+.mCard p{
+    text-align:justify;
+}
+h1 {
+    text-align: center;
+}
+
+.mCard a {
+    color: rgb(254, 116, 206);
+}

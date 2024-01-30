@@ -1,0 +1,51 @@
+/* para detalles, bocetos, planificación, procesaLogin-Logout-Reg e index*/
+div.contenido{
+    margin:4em 10%;
+    padding: 2em;
+    border-radius: 2em;
+    background-color: #0088ff;
+    line-height: 1.5em;
+    font-size: 16px;
+    text-align:justify;
+    align-items:center;
+
+}
+
+.contenido p, .contenido h1, .contenido h2, .contenido h3, .contenido li {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+/* imagen siguiente a contenido*/
+.contenido + img {
+    width: 12em;
+}
+
+/*img en contenido*/
+.contenido img {
+    width: 30em;
+     /* para centrarla*/
+     display:block;
+     margin:auto;
+}
+#tablaPlan{
+    /*centrarrrrr*/
+    margin:auto;
+}
+
+/* elementos planificacion*/
+#tablaPlan th { /* es intencional que las lineas estén separadas*/
+    border:  1px solid #ffe600;
+    background-color: #d426a1;
+    font-family:monospace;
+    padding:0.3em 3em;
+    text-align: center;
+}
+
+#tablaPlan caption {
+    border:  1px solid #ffe600;
+    background-color: #d426a1;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+

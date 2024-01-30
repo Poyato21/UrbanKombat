@@ -1,0 +1,2 @@
+En la práctica anterior se implementaron el login y logout asi como la gestion de los votos y de la tienda.
+Para esta entrega hemos implementado el foro, además de solucionar errores de la entrega pasada. 

@@ -1,0 +1,45 @@
+
+div#vota {
+    width:40em;
+    margin: auto;
+}
+#vota a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    display:block;
+    margin: 2em;
+    font-size:xx-large;
+}
+
+#artista {
+    text-align: left;
+    color:rgb(161, 248, 219);
+}
+#cancion {
+    text-align: center;
+    color:rgb(249, 249, 0);
+}
+#album{
+    text-align:right;
+    color:rgb(190, 111, 255);
+}
+
+.selector{
+    margin: 5rem;
+    background-color: yellow;
+    font-size:x-large;
+}
+
+.ultimoGanador{
+    margin: 1em;
+    background-color: yellowgreen;
+    color:rgb(144, 0, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:1em;
+}
+.ultimoGanador img{
+    width:15%;
+    height: 15%;
+}
